@@ -17,6 +17,7 @@ func init() {
 	for i := 0; i < len(os.Args); i++ {
 		if os.Args[i] == "--build-version" {
 			Print()
+			break
 		}
 	}
 }
